@@ -1,5 +1,5 @@
 Khai niem co ban:
--Git:la he thong quan ly version ph‚n t·n,quan ly source tren linux va luu trang thai
+-Git:la he thong quan ly version ph√¢n t√°n,quan ly source tren linux va luu trang thai
 cua file(project duoi dang lich su)
 -Repository la:Kho chua cac thong tin cua project
 +Remote repository:duoc dat tren server
@@ -43,5 +43,5 @@ git log
 git revert idcopy
 Ctrl C Shift : q enter
 
-De keo project tu github v? khi cÛ s? thay d?i:
+De keo project tu github ve khi c√≥ su thay doi:
 git pull
