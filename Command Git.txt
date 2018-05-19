@@ -1,0 +1,47 @@
+Khai niem co ban:
+-Git:la he thong quan ly version phân tán,quan ly source tren linux va luu trang thai
+cua file(project duoi dang lich su)
+-Repository la:Kho chua cac thong tin cua project
++Remote repository:duoc dat tren server
++Local repositoty:duoc dat tren may tinh ca nhan
+1.cac cau lenh:
+-cau hinh cho git ban dau:
+git config
+git config --global user.name = "nguyentungcuong"
+git config -global user.email = "tungcuong1997@gmail.com"
+-Tao 1 thu muc project
+-Tao 1 file
+
+Tao Repository:
+-vao project:
+git init
+-Xem trang thai:
+git status
+-De duoc git xac nhan:
+git add .
+git add "Test.txt"
+-Lenh commit la dung de up len local repository
+git commit -m "command"
+cach 2: vua add va cua commit:
+git commit -a -m "command"
+-De xem lich su commit len repository
+git log
+ 
+De push len github:
+-copy path tren github
+git remote add TenProject pathgithub
+git push --set-upstream TenProject master
+
+De clone Project tu github ve:
+-copy path tren github
+git clone pathtrengithub
+
+De quay tro lai mot thoi diem truoc commit tren local
+-xem lich su commit
+git log
+-Quay tro lai lan nao thi copy id lan commit day.
+git revert idcopy
+Ctrl C Shift : q enter
+
+De keo project tu github v? khi có s? thay d?i:
+git pull
